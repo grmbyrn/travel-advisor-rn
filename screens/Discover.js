@@ -8,6 +8,9 @@ import ItemCardContainer from '../components/ItemCardContainer';
 import { FontAwesome } from '@expo/vector-icons';
 import { getPlacesData } from '../api';
 
+import { TailwindProvider } from 'tailwindcss-react-native';
+
+
 const Discover = () => {
 
     const navigation = useNavigation()
@@ -63,10 +66,10 @@ const Discover = () => {
                 setBl_lat(details?.geometry?.viewport?.southwest?.lat)
                 setBl_lng(details?.geometry?.viewport?.southwest?.lng)
                 setTr_lat(details?.geometry?.viewport?.northeast?.lat)
-                setTr_lng(details?.geometry?.viewport?.northeast?.lalngt)
+                setTr_lng(details?.geometry?.viewport?.northeast?.lng)
             }}
             query={{
-                key: 'YOUR_API_KEY',
+                key: 'c392fc1dcbmsh4ff0cbe812f0693p115e5ajsnfdabf44681da',
                 language: 'en',
             }}
         />
