@@ -1,7 +1,7 @@
-Travel Advisor
+# Travel Advisor
 This is the repository for the Travel Advisor React Native app, which helps users plan their travels by providing information on popular destinations, hotels, restaurants, and attractions.
 
-Features
+## Features
 Browse popular travel destinations and view photos and reviews
 Search for hotels by location, date, and price range
 View hotel details such as amenities, room types, and rates
@@ -28,8 +28,8 @@ Copy code
 npm start
 This will launch the app in your default browser using Expo. From there, you can run the app in a simulator or on your physical device by following the instructions provided by Expo.
 
-Contributing
+## Contributing
 Contributions to this project are welcome and appreciated! To contribute, please fork the repository and create a new branch for your changes. Then submit a pull request with a detailed description of your changes.
 
-License
+## License
 This project is licensed under the MIT License. Feel free to use and modify this code for your own projects.
